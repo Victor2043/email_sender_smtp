@@ -1,0 +1,7 @@
+version: "3"
+services:
+  email_sender:
+    build: .
+    ports:
+      - "5000:80"
+    container_name: email_sender
